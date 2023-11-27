@@ -29,3 +29,30 @@ section {
 .dark {
   background: #0f0f10;
 }
+
+.curve {
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  bottom: 0;
+}
+
+.curve::before {
+  content: "";
+  display: block;
+  position: absolute;
+
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+}
+
+.curve::after {
+  content: "";
+  display: block;
+  position: absolute;
+
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+}
